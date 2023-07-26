@@ -1,0 +1,31 @@
+	{
+		"indexes":
+			[
+				"IBM Public Data",
+				"AI Research Papers",
+				"Medium Articles on Watson"
+			],
+		"collection_ids":
+			[
+				"27d909da-aee7-9c6d-0000-01898db563f6"
+			],
+		"fields":
+			[
+				"title",
+				"text"
+			],
+			"max_per_document": 5,
+			"max_answers_per_passage": 1,
+			"return":
+				[
+					"document_id",
+					"extracted_metadata.filename",
+					"extracted_metadata.title",
+					"metadata.source.url"
+				],
+			"per_document": true,
+			"apikey": "3Oet_gu1dx6-Y12F6kh2nIe-dw6wjLcEydHatNVoQNIc",
+			"endpoint": "https://api.us-south.discovery.watson.cloud.ibm.com/instances/8b188893-43ff-40e8-9505-69bc2348dd8e",
+			"project_id": "cf13c9ce-01df-4e87-a817-860f21bc2d18",
+			"version": "2019-11-22"
+	}
